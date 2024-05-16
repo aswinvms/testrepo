@@ -45,6 +45,8 @@ def check_api():
     registration_no = "540020503522"
     params = {"registration_no": registration_no, "login_type": "result"}
 
+
+
     while True:
         try:
             response = requests.get(url, params=params)
